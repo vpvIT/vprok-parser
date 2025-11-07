@@ -1,0 +1,21 @@
+{
+    "name": "vprok-parser",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "api": "node dist/index.js api",
+        "puppeteer": "node dist/index.js puppeteer",
+        "build": "tsc",
+        "dev:puppeteer": "bun --watch src/index.ts puppeteer",
+        "dev:api": "bun --watch src/index.ts api"
+    },
+    "keywords": [],
+    "author": "VPV",
+    "license": "ISC",
+    "dependencies": {
+        "puppeteer": "^23.3.0"
+    },
+    "devDependencies": {
+        "typescript": "^5.1.6"
+    }
+}
