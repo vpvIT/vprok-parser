@@ -1,4 +1,4 @@
-# tg-channel-duplicator
+# vprok-parser
 
 Парсер сайта vprok.ru с возможностью парсить товар или категорию
 
